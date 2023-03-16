@@ -23,6 +23,8 @@ https://user-images.githubusercontent.com/115478137/222972084-ace0bc59-dd59-415e
 
 ## Upon the completion of the initial run, the current configuration of the tables exhibits the following structure.
 
-![image](https://user-images.githubusercontent.com/115478137/222972359-02ca68f2-c14e-40c9-8742-eef6ded6ae03.png)
+![image](https://user-images.githubusercontent.com/115478137/225661028-03028664-dc09-4aea-bfb4-0b191b40f727.png)
+
+
 
 
