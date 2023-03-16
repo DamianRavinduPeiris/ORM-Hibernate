@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.damian.hibernate.controller.HomeScreenController">
+   <children>
+      <Label fx:id="dateAndTime" alignment="CENTER" layoutX="169.0" layoutY="331.0" prefHeight="38.0" prefWidth="240.0" style="-fx-background-color: #F7F7F7; -fx-padding: 10px;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="customerBtn" layoutX="205.0" layoutY="132.0" onAction="#mcOnAction" prefHeight="31.0" prefWidth="168.0" style="-fx-background-color: lightblue;" text="Manage Customers." />
+      <JFXButton fx:id="ordersBtn" layoutX="205.0" layoutY="265.0" onAction="#moOnAction" prefHeight="31.0" prefWidth="168.0" style="-fx-background-color: lightblue;" text="Manage Orders." />
+      <JFXButton fx:id="itemsBtn" layoutX="205.0" layoutY="200.0" onAction="#miOnAction" prefHeight="31.0" prefWidth="168.0" style="-fx-background-color: lightblue;" text="Manage Items." />
+      <Label fx:id="mainLabel" layoutX="176.0" layoutY="34.0" prefHeight="70.0" prefWidth="247.0" style="-fx-background-color: yellow;" text="POS - V.1.0." underline="true">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
